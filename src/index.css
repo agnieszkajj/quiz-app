@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #4a4e69;
   display: flex;
   justify-content: center;
@@ -29,6 +29,7 @@ main {
 
 .quiz {
   width: 80%;
+  max-width: 800px;
   background-color: #f2e9e4;
   border-radius: 0.5rem;
 }
@@ -95,7 +96,7 @@ main {
 
 .quiz h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .btn-container {
@@ -191,7 +192,7 @@ main {
   z-index: 100;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 50rem) {
   .modal-content {
     width: 60%;
     text-align: center;
@@ -201,6 +202,9 @@ main {
   }
   .modal-content h2 {
     font-size: 3rem;
+  }
+  .quiz h2 {
+    font-size: 2rem;
   }
 }
 /* Loader */
