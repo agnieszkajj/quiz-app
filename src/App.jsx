@@ -52,10 +52,10 @@ function App() {
               );
             })}
           </div>
+          <div className="next-question">
+            <button onClick={nextQuestion}>Next Question</button>
+          </div>
         </article>
-        <div className="next-question">
-          <button onClick={nextQuestion}>Next Question</button>
-        </div>
       </section>
     </main>
   );
