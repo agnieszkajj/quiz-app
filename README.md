@@ -6,7 +6,7 @@ QuizApp is a  quiz application that lets you play fully customized quizzes right
 
 ## Demo
 
-[Quiz App](https://app.netlify.com/sites/quizzzz-app-react/overview)
+[Quiz App](https://quizzzz-app-react.netlify.app/)
 ## Tech Stack
 
  React\
